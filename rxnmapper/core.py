@@ -86,6 +86,7 @@ class RXNMapper:
             output_attentions=True,
             output_past=False,
             output_hidden_states=False,
+            ignore_mismatched_sizes=True 
         )
 
         vocab_path = None
